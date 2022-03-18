@@ -45,22 +45,32 @@ public class SortPro {
 ```
 
 ### 运行
-写好代码后，在上方的工具栏选择
-![在这里插入图片描述](https://img-blog.csdnimg.cn/f007efb7ddac4344b2e8cbec99754b6c.png#pic_center)
+写好代码后，在上方的工具栏选择   
+<br>
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f007efb7ddac4344b2e8cbec99754b6c.png#pic_center)    
+<br>
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e8cf6baf08874d6c9352b6bd7bad6697.png#pic_center)
-运行后，在下方有如下显示，选择“open”打开，就可以看到结果
+![在这里插入图片描述](https://img-blog.csdnimg.cn/e8cf6baf08874d6c9352b6bd7bad6697.png#pic_center)     
+
+运行后，在下方有如下显示，选择“open”打开，就可以看到结果      
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/7f1b7eb62059404abfb021e2a2fd9597.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_17,color_FFFFFF,t_70,g_se,x_16#pic_center)
       
       
 
-### 结果展示
-1、**火焰图**：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6d3a762606dd4f64bdedfde9e661519b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+### 结果展示   
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a38a7ed7f0ac43c29d97f73117881edc.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5bc8e56468014bb4a91cc9dc2e0d5828.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+1、**火焰图**：     
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/6d3a762606dd4f64bdedfde9e661519b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)       
+
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/a38a7ed7f0ac43c29d97f73117881edc.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)      
+     
+     
+![在这里插入图片描述](https://img-blog.csdnimg.cn/5bc8e56468014bb4a91cc9dc2e0d5828.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LuZ5bqm55Ge5ouJ5b-r6LeR,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)         
+
+   
 ### 结果分析
 &ensp;&ensp; 从火焰图中，可以看出，main函数占CPU的时间比较少，而被调用的sort函数占比较多，即对数组的排序耗时较多；在点击火焰图中的蓝色部分，可查看相应的信息，也可以发现该函数的比较操作最为耗时，而交换两个元素耗时次之。    
 &ensp;&ensp; 在调用树这幅图中，可以明显看到，sort函数占用了CPU绝大部分的时间。
