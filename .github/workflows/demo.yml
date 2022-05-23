@@ -25,6 +25,6 @@ jobs:
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: cd ${{ github.workspace }}/hw8 && pip install -r ./requirements.txt
+        run: cd ${{ github.workspace }}/hw8/ && pip install -r ./requirements.txt
       - name: Test with Python
-        run: cd ${{ github.workspace }}/hw8 && python ./AddNumber.py
+        run: cd ${{ github.workspace }}/hw8/ && python ./AddNumber.py
