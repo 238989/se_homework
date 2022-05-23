@@ -15,3 +15,7 @@
     
 ## 第七次作业（hw7）：
 &ensp;&ensp;以工厂设计模式设计火锅系统，绘制UML图，编写代码。    
+     
+## 第八次作业（hw8）：    
+&ensp;&ensp;使用GitHub &ensp; Action 对仓库进行构建和测试。   
+![example workflows](https://github.com/238989/se_homework/blob/master/.github/workflows/demo.yml/badge.svg)
